@@ -66,35 +66,52 @@ Interpreter返回字符串给主函数以决定该进行何种输出：
 ---
 1. 主窗口
    ![Alt text](./md_image/1532271297843.png)
+   
 2. 创建表
     ![Alt text](./md_image/1532271314903.png)
+    
    3.插入数据
     ![Alt text](./md_image/1532271322457.png)
+    
    4.无索引条件查找
     ![Alt text](./md_image/1532271330192.png)
+    
    5.创建索引
    ![Alt text](./md_image/1532271337470.png)
+   
    6.有索引条件查找
     ![Alt text](./md_image/1532271344744.png)
+    
    7.索引插入
     ![Alt text](./md_image/1532271351910.png)
+    
    8.索引删除
     ![Alt text](./md_image/1532271357777.png)
+    
    9.删除索引
     ![Alt text](./md_image/1532271364878.png)
+    
 3. 条件删除记录
     ![Alt text](./md_image/1532271372962.png)
+    
 4. 全部删除记录
     ![Alt text](./md_image/1532271379718.png)
+    
 5. 删除表
    ![Alt text](./md_image/1532271386131.png)
+   
 6. 执行文件 
     ![Alt text](./md_image/1532271393744.png)
+    
    ![Alt text](./md_image/1532271399407.png)
+   
    ![Alt text](./md_image/1532271412238.png)
+   
 7. 帮助
     ![Alt text](./md_image/1532271419707.png)
+    
 8. 退出
    输入exit; 之后程序退出。
+   
 9. 文件
     ![Alt text](./md_image/1532271426981.png)
