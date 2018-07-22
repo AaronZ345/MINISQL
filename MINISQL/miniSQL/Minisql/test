@@ -1,0 +1,35 @@
+help;
+
+create table student (
+		sno char(8),
+		sname char(16) unique,
+		sage int,
+		sgender char (1),
+		primary key ( sno )
+);
+
+select * from student;
+
+insert into student values ('11111111','a',10,'A');
+insert into student values ('22222222','bb',20,'B');
+insert into student values ('33333333','ccc',30,'C');
+insert into student values ('44444444','dddd',40,'D');
+insert into student values ('55555555','eeeee',50,'E');
+insert into student values ('66666666','ffffff',60,'F');
+insert into student values ('77777777','ggggggg',70,'G');
+insert into student values ('88888888','hhhhhhhh',80,'H');
+insert into student values ('99999999','iiiiiiiii',90,'I');
+
+select * from student where sage > 20 and sgender = 'F';
+
+delete from student where sno = '88888888';
+
+select * from student where sno = '88888888';
+
+create index stunameidx on student ( sname );
+
+select sname from student where sage > 20 and sgender = 'F';
+
+drop index stunameidx;
+
+drop table student;
